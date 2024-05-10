@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    position: relative;
+    min-height: 60vh;
+    background: url("./pexels-the-cactusena-14865516.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f4f4f4;
+    /* object-fit: cover; */
+}
+ ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    list-style: none;
+ }
+ .container{
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+ }
+ .nav{
+    display: flex;
+    justify-content: space-between;
+    min-height: 8vh;
+    align-items: center;
+ }
+.nav-items{
+    width: 40%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.head-line{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /* color: rgba(67, 9, 9, 0.805); */
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn-headline{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    border-radius: 40em;
+}
+.todo-section{
+    margin-top:5rem ;
+    text-align: center;
+}
+.bg-dark{
+    background: black;
+    color: #f4f4f4;
+}
+.form-todo{
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.form-todo input{
+    min-height: 100%;
+}
+.form-todo input[type="text"]{
+    width: 78%;
+    padding: 0.8rem;
+    font-size: 1rem;
+}
+.form-todo input[type="submit"]{
+    width: 20%;
+    background: #4e312d;
+    color: white;
+    font-weight: bold;
+    border-radius: 40em;
+}
+.todo-list {
+    text-align: left;
+    font-size: 1.2rem;
+    list-style-type: none;
+  }
+  .todo-list li {
+    padding: 0.7rem;
+    background: #4e312d;
+    color: white;
+    border: 30em;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .todo-btn {
+    /* min-height: 100%; */
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30em;
+    background: #fff;
+  }
+  .section-signup {
+    margin: 5rem auto;
+    text-align: center;
+    background: #4e312d;
+    border-radius: 10px;
+    padding: 1rem;
+    color: white;
+  }
+  
+  .signup-form {
+    max-width: 800px;
+    width: 95%;
+    text-align: left;
+    margin: auto;
+  }
+  .signup-form label {
+    display: block;
+  }
+  
+  .signup-form input {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .form-group {
+    margin-top: 1rem;
+  }
+  .signup-form textarea {
+    width: 100%;
+  }
+  .signup-btn {
+    background:white;
+    color:black;
+    padding: 1rem 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 40em;
+  }
+  
+  
